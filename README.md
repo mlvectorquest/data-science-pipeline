@@ -28,7 +28,10 @@ A machine learning pipeline for StyleSense, an online women's clothing retailer.
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+python -m spacy download en_core_web_sm
 ```
+
+The spaCy model is only used by the lemmatization experiment in the notebook's fine-tuning section.
 
 ### Running the notebook
 
